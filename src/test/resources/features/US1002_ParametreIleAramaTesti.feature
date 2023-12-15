@@ -1,5 +1,6 @@
 Feature: US1002 Kullanici parametre ile verdigi urunu aratabilmeli
 
+  @P1
   Scenario: TC04 Kullanici java arattiginda sonuc bulamamali
 
     Given kullanici testotomasyonu anasayfaya gider
@@ -7,7 +8,7 @@ Feature: US1002 Kullanici parametre ile verdigi urunu aratabilmeli
     And arama sonucunda urun bulunamadigini test eder
     And 3 saniye bekler
     Then sayfayi kapatir
-
+@P1
   Scenario: TC05 Kullanici samsung arattiginda sonuc bulamamali
 
     Given kullanici "toUrl" anasayfaya gider
